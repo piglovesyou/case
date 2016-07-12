@@ -16,7 +16,7 @@ defmodule CaseTest do
     assert Case.pascalcase("dot.case") == "DotCase"
     assert Case.pascalcase("path/case") == "PathCase"
 
-    # assert Case.pascalcase("TestString") == "TestString"
+    assert Case.pascalcase("TestString") == "TestString"
 
     # assert Case.pascalcase(["my STRING", "tr"]) == "MyStrıng"
 
